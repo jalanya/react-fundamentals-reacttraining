@@ -39,7 +39,6 @@ class SelectLanguage extends React.Component {
 */
 
 function RepoGrid(props) {
-  console.log(props.repos);
   return (
     <ul className='popular-list'>
       {props.repos.map(function (repo, index) {
